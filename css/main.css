@@ -58,9 +58,10 @@ header h1{
 
 .text {
   position: absolute;
+  display: flex;
   width: 100%;
-  left: 50%;
-  margin-left: -225px;
+ /* left: 50%;*/
+  margin:0px auto; 
   height: 40px;
   /*top: 50%;
   margin-top: -20px;*/
@@ -69,7 +70,7 @@ header h1{
 .word {
   position: absolute;
   /*width: 220px;*/
-  
+
   opacity: 0;
 }
 
