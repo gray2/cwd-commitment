@@ -8,4 +8,6 @@ mostly just testing different css/js animations
 # things added
 1. css pattern background
 1. basic flexbox layout
+1. css animation with cycling words
+1. tried to add custom fonts, had to relearn that
 
