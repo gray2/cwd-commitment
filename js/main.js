@@ -89,6 +89,8 @@ function hideNewContent(){
   } else {
     z.style.display = "none";
   }
+
+  
 }
 
 
