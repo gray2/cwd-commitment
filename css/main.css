@@ -22,6 +22,24 @@ body{
 
 
 }
+#infobox{
+
+	width:100%;
+	max-width:960px; 
+	margin:0px auto; 
+	padding:0px;
+	box-sizing:border-box;
+
+	display:flex;
+	flex-wrap:wrap; 
+	flex-direction:row; 
+	align-content:flex-start; 
+	align-items:stretch;
+
+
+
+}
+
 
 header{
 	width: 100%;
@@ -44,8 +62,8 @@ header h1{
   left: 50%;
   margin-left: -225px;
   height: 40px;
-  top: 50%;
-  margin-top: -20px;
+  /*top: 50%;
+  margin-top: -20px;*/
 }
 
 .word {
