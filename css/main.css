@@ -56,6 +56,13 @@ header h1{
 	letter-spacing: 15px;
 }
 
+p{
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+
+}
+
 .text {
   position: absolute;
   display: flex;
