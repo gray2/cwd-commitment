@@ -22,3 +22,11 @@ body{
 
 
 }
+
+header{
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 50px;
+	background-color:rgb(129,179,224);
+}
