@@ -55,3 +55,12 @@ function splitLetters(word) {
 
 changeWord();
 setInterval(changeWord, 4000);
+
+function hideContent(){
+	var x = document.getElementById("first-message");
+	if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
