@@ -102,3 +102,17 @@ p{
   transform: rotateX(0deg);
   transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+.fullwidth{
+
+
+	margin:2%;
+	width:96%;
+	padding:2%;
+	box-sizing:border-box;
+	
+	border-radius: 25px;
+  	border: 2px solid rgb(56,82,164);
+ 	padding: 20px;
+  
+}
