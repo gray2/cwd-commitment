@@ -70,7 +70,16 @@ function hideContent(){
   } else {
     y.style.display = "none";
   }
+
+
+  var z = document.getElementById("third-message");
+  	if (z.style.display === "none") {
+    z.style.display = "block";
+  } else {
+    z.style.display = "none";
+  }
 }
 
 
 document.getElementById("second-message").style.display = "none";
+document.getElementById("third-message").style.display = "none";
