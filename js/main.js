@@ -72,6 +72,17 @@ function hideContent(){
   }
 
 
+}
+
+function hideNewContent(){
+
+	var y = document.getElementById("second-message");
+  	if (y.style.display === "block") {
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+  }
+
   var z = document.getElementById("third-message");
   	if (z.style.display === "none") {
     z.style.display = "block";
