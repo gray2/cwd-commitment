@@ -135,3 +135,4 @@ document.getElementById("second-message").style.display = "none";
 document.getElementById("third-message").style.display = "none";
 document.getElementById("delayed").style.display = "none";
 document.getElementById("delayed-A").style.display = "none";
+document.getElementById("infobox2").style.display = "none";
