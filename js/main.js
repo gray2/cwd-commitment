@@ -91,7 +91,7 @@ function hideNewContent(){
   }
 
   var delay = document.getElementById("delayed-msg").style.display = "block";
-  setTimeout(delay, 300);
+  setTimeout(delay, 3000);
 
 
 }
