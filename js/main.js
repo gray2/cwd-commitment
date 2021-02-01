@@ -117,11 +117,13 @@ function delayedContent(){
 	
 
 	setTimeout(function showDelayA(){
-			document.getElementById("infobox").style.display = "none";
-		
+			
+		x.style.display = "block";
   		
   			}
 		, 3000);
+
+		document.getElementById("infobox").style.display = "none";
 
 
 		document.body.style.backgroundImage = "url(img/standby.png)";
