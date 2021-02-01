@@ -141,6 +141,7 @@ function delayedContent(){
 		}
 
 		function  buttonNo(){
+			document.getElementById("button-no").style.display = "block";
 			
 		 }
 			
@@ -154,5 +155,6 @@ document.getElementById("third-message").style.display = "none";
 document.getElementById("delayed").style.display = "none";
 document.getElementById("delayed-A").style.display = "none";
 document.getElementById("infobox2").style.display = "none";
+document.getElementById("button-no").style.display = "none";
 alert("this page contains bright colors and flashing images, please be advised");
 
