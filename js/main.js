@@ -143,6 +143,10 @@ function delayedContent(){
 function buttonYes{
 
 }
+
+function  buttonNo{
+	
+}
 	
 document.getElementById("second-message").style.display = "none";
 document.getElementById("third-message").style.display = "none";
