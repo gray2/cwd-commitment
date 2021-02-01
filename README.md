@@ -15,4 +15,5 @@ trying to brush back up on things i learned back in web
 1. breaking the page, because why not?
 1. oh god i actually broke it
 1. wait no we good
+1. i broke it again trying to add a typing effect
 
