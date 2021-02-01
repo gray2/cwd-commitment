@@ -106,10 +106,14 @@ function hideNewContent(){
 }
 
 function delayedContent(){
+	var x = document.getElementById("delayed-A");
+	x.style.display = "block";
 	
+
 }
 
 	
 document.getElementById("second-message").style.display = "none";
 document.getElementById("third-message").style.display = "none";
 document.getElementById("delayed").style.display = "none";
+document.getElementById("delayed-A").style.display = "none";
