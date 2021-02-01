@@ -83,16 +83,14 @@ function hideNewContent(){
     y.style.display = "block";
   }
 
-  var delay = document.getElementById("delayed");
+  
   var z = document.getElementById("third-message");
   	if (z.style.display === "none") {
     z.style.display = "block";
      
-  	function showDelay(){
-  		delay.style.display = "block";
-  	}
+  
 
-  	setTimeout(showDelay(), 3000);
+  	setTimeout(showDelay(), 500000);
 
   } else {
     z.style.display = "none";
@@ -103,6 +101,10 @@ function hideNewContent(){
 
 }
 
+	function showDelay(){
+		var delay = document.getElementById("delayed");
+  		delay.style.display = "block";
+  	}
 
 document.getElementById("second-message").style.display = "none";
 document.getElementById("third-message").style.display = "none";
