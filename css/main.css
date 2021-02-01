@@ -224,7 +224,8 @@ button{
        animation-name: flicker;
        animation-iteration-count: infinite;
        animation-direction: alternate;
-       background-color: none;
+       background-color: transparent;
        outline-color: white;
        align-self: center;
+       align-content: center;
 }
