@@ -126,6 +126,8 @@ function delayedContent(){
 
 
 	setTimeout(function showDelayB(){
+			document.body.style.backgroundImage = "none";
+			document.body.style.backgroundColor = "black";
 			document.getElementById("infobox2").style.display = "block";
 			
 		 		
