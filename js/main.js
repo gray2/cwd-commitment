@@ -111,7 +111,7 @@ function delayedContent(){
 
 	if (x.style.display==="block"){
 		document.getElementById("infobox").style.display = "none";
-		document.body.style.backgroundImage = "url()";
+		document.body.style.backgroundImage = "url(../img/standby.png)";
 	}
 
 }
