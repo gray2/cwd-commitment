@@ -90,9 +90,13 @@ function hideNewContent(){
     z.style.display = "none";
   }
 
-  
+  var delay = document.getElementById("delayed-msg").style.display = "block";
+  setTimeout(delay, 300);
+
+
 }
 
 
 document.getElementById("second-message").style.display = "none";
 document.getElementById("third-message").style.display = "none";
+document.getElementById("delayed-msg").style.display = "none";
