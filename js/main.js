@@ -130,7 +130,7 @@ function delayedContent(){
 			
 		 		
   			}
-		, 3000);
+		, 5000);
 
 		
 	
