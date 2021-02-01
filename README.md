@@ -4,6 +4,7 @@ initial commit for making starter files
 
 # goals and shenanigans
 mostly just testing different css/js animations
+trying to brush back up on things i learned back in web
 
 # things added
 1. css pattern background
