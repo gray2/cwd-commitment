@@ -107,18 +107,23 @@ function hideNewContent(){
 
 function delayedContent(){
 	var x = document.getElementById("delayed-A");
-	// x.style.display = "block";
+	x.style.display = "block";
 
+	var y = document.getElementById("delayed");
+  		y.style.display = "none";
+
+  	 var z = document.getElementById("third-message");
+  	 z.style.display = "none";
 	
 
 	setTimeout(function showDelayA(){
+			document.getElementById("infobox").style.display = "none";
 		
-  		x.style.display = "block";
+  		
   			}
 		, 3000);
 
 
-		// document.getElementById("infobox").style.display = "none";
 		document.body.style.backgroundImage = "url(img/standby.png)";
 	
 
