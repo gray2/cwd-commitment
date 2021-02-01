@@ -83,11 +83,17 @@ function hideNewContent(){
     y.style.display = "block";
   }
 
+  var delay = document.getElementById("delayed");
   var z = document.getElementById("third-message");
   	if (z.style.display === "none") {
     z.style.display = "block";
-     var delay = document.getElementById("delayed-msg");
-  	setTimeout(delay.style.display="block", 3000);
+     
+  	function showDelay(){
+  		delay.style.display = "block";
+  	}
+
+  	setTimeout(showDelay(), 3000);
+
   } else {
     z.style.display = "none";
   }
@@ -100,4 +106,4 @@ function hideNewContent(){
 
 document.getElementById("second-message").style.display = "none";
 document.getElementById("third-message").style.display = "none";
-document.getElementById("delayed-msg").style.display = "none";
+document.getElementById("delayed").style.display = "none";
