@@ -118,6 +118,7 @@ function delayedContent(){
 
 	setTimeout(function showDelayA(){
 			document.getElementById("infobox").style.display = "none";
+			document.getElementById("heading").style.display = "none";
 			document.body.style.backgroundImage = "url(img/standby.png)";
   		
   			}
