@@ -107,12 +107,20 @@ function hideNewContent(){
 
 function delayedContent(){
 	var x = document.getElementById("delayed-A");
-	x.style.display = "block";
+	// x.style.display = "block";
 
-	if (x.style.display==="block"){
-		document.getElementById("infobox").style.display = "none";
+	
+
+	setTimeout(function showDelayA(){
+		
+  		x.style.display = "block";
+  			}
+		, 3000);
+
+
+		// document.getElementById("infobox").style.display = "none";
 		document.body.style.backgroundImage = "url(img/standby.png)";
-	}
+	
 
 }
 
