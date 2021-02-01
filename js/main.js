@@ -125,6 +125,13 @@ function delayedContent(){
 		, 3000);
 
 
+	setTimeout(function showDelayB(){
+			document.getElementById("infobox2").style.display = "block";
+			
+		 		
+  			}
+		, 1000);
+
 		
 	
 
