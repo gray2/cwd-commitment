@@ -135,13 +135,14 @@ function delayedContent(){
   			}
 		, 5000);
 
-		// function buttonYes{
+		function buttonYes(){
+			location.reload();
 
-		// }
+		}
 
-		// function  buttonNo{
+		function  buttonNo(){
 			
-		// }
+		 }
 			
 
 }
