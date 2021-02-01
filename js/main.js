@@ -117,16 +117,14 @@ function delayedContent(){
 	
 
 	setTimeout(function showDelayA(){
-			
-		x.style.display = "block";
+			document.getElementById("infobox").style.display = "none";
+			document.body.style.backgroundImage = "url(img/standby.png)";
   		
   			}
 		, 3000);
 
-		document.getElementById("infobox").style.display = "none";
 
-
-		document.body.style.backgroundImage = "url(img/standby.png)";
+		
 	
 
 }
