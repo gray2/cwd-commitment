@@ -225,4 +225,6 @@ button{
        animation-iteration-count: infinite;
        animation-direction: alternate;
        background-color: none;
+       outline-color: white;
+       align-self: center;
 }
