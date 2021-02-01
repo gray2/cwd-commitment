@@ -1,6 +1,7 @@
 // rotating words from https://codepen.io/rachsmith/pen/BNKJme
 
 
+
 var words = document.getElementsByClassName('word');
 var wordArray = [];
 var currentWord = 0;
@@ -145,3 +146,4 @@ document.getElementById("third-message").style.display = "none";
 document.getElementById("delayed").style.display = "none";
 document.getElementById("delayed-A").style.display = "none";
 document.getElementById("infobox2").style.display = "none";
+alert("this page contains bright colors and flashing images, please be advised");
