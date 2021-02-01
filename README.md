@@ -22,4 +22,5 @@ trying to brush back up on things i learned back in web
 1. wait no we good
 1. i broke it again trying to add a typing effect
 1. fixed it and added some interaction
+1. finishing up final interactions with buttons and css changes
 
