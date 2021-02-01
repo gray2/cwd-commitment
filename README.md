@@ -1,4 +1,4 @@
-# cwd-commitment
+# cwd-commitment assignment
 100 git commits
 initial commit for making starter files
 
@@ -16,4 +16,5 @@ trying to brush back up on things i learned back in web
 1. oh god i actually broke it
 1. wait no we good
 1. i broke it again trying to add a typing effect
+1. fixed it and added some interaction
 
