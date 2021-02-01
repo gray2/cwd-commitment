@@ -11,4 +11,5 @@ mostly just testing different css/js animations
 1. css animation with cycling words
 1. tried to add custom fonts, had to relearn that
 1. adding interactive boxes, aiming to get a hypertext narrative kind of feel
+1. breaking the page, because why not?
 
