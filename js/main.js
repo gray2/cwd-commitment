@@ -86,12 +86,13 @@ function hideNewContent(){
   var z = document.getElementById("third-message");
   	if (z.style.display === "none") {
     z.style.display = "block";
+     var delay = document.getElementById("delayed-msg");
+  	setTimeout(delay.style.display="block", 3000);
   } else {
     z.style.display = "none";
   }
 
-  var delay = document.getElementById("delayed-msg").style.display = "block";
-  setTimeout(delay, 3000);
+ 
 
 
 }
