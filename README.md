@@ -13,4 +13,6 @@ trying to brush back up on things i learned back in web
 1. tried to add custom fonts, had to relearn that
 1. adding interactive boxes, aiming to get a hypertext narrative kind of feel
 1. breaking the page, because why not?
+1. oh god i actually broke it
+1. wait no we good
 
