@@ -141,6 +141,11 @@ function delayedContent(){
 		}
 
 		function  buttonNo(){
+			setTimeout(function showDelayA(){
+				
+	  		
+	  			}
+			, 3000);
 			document.getElementById("button-no").style.display = "block";
 			
 		 }
