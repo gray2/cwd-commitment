@@ -1,4 +1,9 @@
-# cwd-commitment
+# disclaimer
+this coding assignment/project contains flashing images and bright colors, so please be advised
+to interact with the page, click on the purple text boxes as they appear. there may be a delay for some messages
+
+
+# cwd-commitment assignment
 100 git commits
 initial commit for making starter files
 
@@ -16,4 +21,5 @@ trying to brush back up on things i learned back in web
 1. oh god i actually broke it
 1. wait no we good
 1. i broke it again trying to add a typing effect
+1. fixed it and added some interaction
 
