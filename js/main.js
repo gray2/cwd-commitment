@@ -135,13 +135,13 @@ function delayedContent(){
   			}
 		, 5000);
 
-		function buttonYes{
+		// function buttonYes{
 
-		}
+		// }
 
-		function  buttonNo{
+		// function  buttonNo{
 			
-		}
+		// }
 			
 
 }
