@@ -135,6 +135,9 @@ function delayedContent(){
   			}
 		, 5000);
 
+		document.getElementById("buttonYes").onclick = buttonYes();
+		document.getElementById("buttonNo").onclick = buttonNo();
+
 		function buttonYes(){
 			location.reload();
 
@@ -142,6 +145,7 @@ function delayedContent(){
 
 		function  buttonNo(){
 			setTimeout(function showDelayA(){
+				close();
 				
 	  		
 	  			}
